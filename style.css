@@ -1,0 +1,202 @@
+body{
+    background-color: #0F161A;
+    font-family: monospace;
+    color: white;
+}
+
+
+header{
+    font: normal 15pt monospace;
+    text-align: center;
+    background-color: #2A2F32;
+    width: 700px;
+    height: 60px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+#section1{
+    background-color:#056162;
+    width: 800px;
+    height: 510px;
+    border-radius: 10px;
+    margin: auto;    
+}
+#divPlacar{
+    text-align: center;
+    background-color: #2A2F32;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 20px;
+
+}
+#pPlacar{
+    font: bold 23pt monospace;
+}
+.divUsuarios{
+    background-color: #055654;
+    width: 700px;
+    height: 190px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.divNome{
+    display: inline-block;
+    margin-left: 100px;
+    width: 250px;
+    height: 150px;
+}
+.pNome{
+    text-align: left;
+    font: bold 35pt monospace;
+    letter-spacing: 5px;
+}
+
+.fundoResultado{
+    margin-top: 20px;
+    margin-left: 150px;
+    display: inline-block;
+    background-color: #056162;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    
+}
+#divResultadoPc{
+    background-color: #464C4F;
+    margin: auto;
+    margin-top: 7px;
+    width: 125px;
+    height: 125px;
+    border: 5px solid;
+    border-radius: 30px;
+    border-color: #626f75;
+    
+}
+#pEscolhaPc{
+    font-size: 60pt;
+    margin-top: 0px;
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#divResultadoJogador{
+    background-color: #464C4F;
+    margin: auto;
+    margin-top: 7px;
+    width: 125px;
+    height: 125px;
+    border: 5px solid;
+    border-radius: 30px;
+    border-color: #626f75;
+    
+}
+#pEscolhaJogador{
+    font-size: 60pt;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+#section2{
+    background-color:#056162;
+    width: 800px;
+    height: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+#divLogResultado{
+    padding: 1px;
+    margin: auto;
+    width: 800px;
+    height: 50px;
+}
+#pLogResultado{
+    font: bold 25pt monospace;
+    color: #1E2428;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#section3{
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    margin-top: 40px;
+}
+.buttonsEscolhaSection3{
+    font: normal 60pt monospace;
+    background-color: #FF3333;
+    border: 10px solid;
+    border-color: #FC2727;
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    margin-left: 85px;
+}
+#section4{
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#divOpcoesSection4{
+    width: 540px;
+    margin: auto;
+    text-align: center;
+}
+#buttonReiniciar{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #33383B; 
+    font: bold 20pt monospace;
+    color: #828689;
+}
+
+
+#section5{
+    margin: auto;
+    text-align: center;
+}
+#selectHistorico{
+    font: normal 25pt monospace;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    background-color: #2a424d;
+    
+}
+#optionHistorico{
+    text-align: center;
+    margin-left: 0px;
+    background-color:  #2A2F32;
+}
+option{
+    margin-left: 70px;
+    text-align: left;
+    color: #828689;
+}
+
+
+footer{
+    font: italic 20pt monospace;
+    margin-top: 30px;
+    text-align: center;
+    color: #2a424d;
+}
+a{
+    color: #056162;
+}
+

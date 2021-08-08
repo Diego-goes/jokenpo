@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Jogo Pedra Papel ou Tesoura: </h1>
+    </header>
+    <section id="section1">
+        <div id="divPlacar">
+            <p id="pPlacar">🤖 0/10 x 0/10 🕹️</p>
+        </div>
+        <div id="divPc" class="divUsuarios">
+            <div id="divNomePc" class="divNome">
+                <p id="pNomePc" class="pNome">Computador:</p>
+            </div>
+            <div class="fundoResultado">
+                <div id="divResultadoPc">
+                    <p id="pEscolhaPc">
+                        🤖
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="divJogador" class="divUsuarios">
+            <div id="divNomeJogador" class="divNome">
+                <p id="pNomeJogador" class="pNome">Jogador:</p>
+            </div>
+            <div class="fundoResultado">
+                <div id="divResultadoJogador">
+                    <p id="pEscolhaJogador">
+                        🕹️
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div id="divLogResultado">
+            <p id="pLogResultado">
+                Escolha uma opção para começar:
+            </p>
+        </div>
+    </section>
+    <section id="section3">
+        <input type="button" value="✊" id="buttonPedra" class="buttonsEscolhaSection3" onclick="rodarJogo('buttonPedra')" onmouseover="mouseOver('buttonPedra')" onmouseleave="mouseleave('buttonPedra')">
+        <input type="button" value="🖐️" id="buttonPapel" class="buttonsEscolhaSection3" onclick="rodarJogo('buttonPapel')" onmouseover="mouseOver('buttonPapel')" onmouseleave="mouseleave('buttonPapel')">
+        <input type="button" value="✌️" id="buttonTesoura" class="buttonsEscolhaSection3" onclick="rodarJogo('buttonTesoura')" onmouseover="mouseOver('buttonTesoura')" onmouseleave="mouseleave('buttonTesoura')">
+    </section>
+    <section id="section4">
+        <div id="divOpcoesSection4">
+            <input type="button" value="Recomeçar" id="buttonReiniciar" onclick="recomecar()" onmouseover="mouseOver('buttonReiniciar')" onmouseleave="mouseleave('buttonReiniciar')">
+        </div>
+    </section>
+    <section id="section5">
+        <select id="selectHistorico" size="10px">
+            <option id="optionHistorico">Histórico:</option>
+        </select>
+    </section>
+    <footer>
+        &copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Góes</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
