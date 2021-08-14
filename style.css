@@ -2,33 +2,36 @@ body{
     background-color: #0F161A;
     font-family: monospace;
     color: white;
+    font: normal 15pt monospace;
 }
 
 
 header{
-    font: normal 15pt monospace;
     text-align: center;
     background-color: #2A2F32;
-    width: 700px;
-    height: 60px;
+    width: 600px;
+    height: 45px;
     border-radius: 10px;
     margin: auto;
-    margin-bottom: 30px;
+}
+h1{
+    margin-top: 1px;
+    font-size: 25pt;
 }
 
 
 #section1{
     background-color:#056162;
-    width: 800px;
-    height: 510px;
+    width: 500px;
+    height: 350px;
     border-radius: 10px;
     margin: auto;    
 }
 #divPlacar{
     text-align: center;
     background-color: #2A2F32;
-    width: 350px;
-    height: 50px;
+    width: 230px;
+    height: 35px;
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -36,51 +39,51 @@ header{
 
 }
 #pPlacar{
-    font: bold 23pt monospace;
+    font: bold 15pt monospace;
 }
 .divUsuarios{
     background-color: #055654;
-    width: 700px;
-    height: 190px;
+    width: 450px;
+    height: 115px;
     margin: auto;
     border-radius: 10px;
     
 }
 .divNome{
     display: inline-block;
-    margin-left: 100px;
-    width: 250px;
+    margin-left: 40px;
+    width: 100px;
     height: 150px;
 }
 .pNome{
     text-align: left;
-    font: bold 35pt monospace;
+    font: bold 22pt monospace;
     letter-spacing: 5px;
 }
 
 .fundoResultado{
-    margin-top: 20px;
-    margin-left: 150px;
+    margin-top: 10px;
+    margin-left: 170px;
     display: inline-block;
     background-color: #056162;
-    width: 150px;
-    height: 150px;
-    border-radius: 30px;
+    width: 96px;
+    height: 96px;
+    border-radius: 20px;
     
 }
 #divResultadoPc{
     background-color: #464C4F;
     margin: auto;
-    margin-top: 7px;
-    width: 125px;
-    height: 125px;
-    border: 5px solid;
-    border-radius: 30px;
+    margin-top: 4px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid;
+    border-radius: 20px;
     border-color: #626f75;
     
 }
 #pEscolhaPc{
-    font-size: 60pt;
+    font-size: 40pt;
     margin-top: 0px;
     text-align: center;
 }
@@ -91,16 +94,16 @@ hr{
 #divResultadoJogador{
     background-color: #464C4F;
     margin: auto;
-    margin-top: 7px;
-    width: 125px;
-    height: 125px;
-    border: 5px solid;
-    border-radius: 30px;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid;
+    border-radius: 20px;
     border-color: #626f75;
     
 }
 #pEscolhaJogador{
-    font-size: 60pt;
+    font-size: 40pt;
     margin-top: 0px;
     text-align: center;
 }
@@ -108,48 +111,52 @@ hr{
 
 #section2{
     background-color:#056162;
-    width: 800px;
-    height: 70px;
+    width: 500px;
+    height: 55px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 #divLogResultado{
     padding: 1px;
     margin: auto;
-    width: 800px;
-    height: 50px;
+    width: 500px;
+    height: 40px;
 }
 #pLogResultado{
-    font: bold 25pt monospace;
+    font: bold 17pt monospace;
     color: #1E2428;
     margin-top: 10px;
     text-align: center;
 }
 
 #section3{
-    width: 800px;
-    height: 150px;
+    width: 600px;
+    height: 100px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
+}
+#divButtons{
+    margin: auto;
+    width: 500px;
 }
 .buttonsEscolhaSection3{
-    font: normal 60pt monospace;
+    font: normal 40pt monospace;
     background-color: #FF3333;
     border: 10px solid;
     border-color: #FC2727;
-    width: 150px;
-    height: 150px;
-    border-radius: 40px;
-    margin-left: 85px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin-left: 43px;
 }
 #section4{
     width: 800px;
     height: 50px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 #divOpcoesSection4{
     width: 540px;
@@ -157,11 +164,11 @@ hr{
     text-align: center;
 }
 #buttonReiniciar{
-    width: 250px;
-    height: 50px;
+    width: 156px;
+    height: 34px;
     border-radius: 10px;
     background-color: #33383B; 
-    font: bold 20pt monospace;
+    font: bold 15pt monospace;
     color: #828689;
 }
 
@@ -171,9 +178,9 @@ hr{
     text-align: center;
 }
 #selectHistorico{
-    font: normal 25pt monospace;
-    width: 800px;
-    height: 300px;
+    font: normal 15pt monospace;
+    width: 500px;
+    height: 180px;
     text-align: center;
     background-color: #2a424d;
     
@@ -184,15 +191,15 @@ hr{
     background-color:  #2A2F32;
 }
 option{
-    margin-left: 70px;
+    margin-left: 40px;
     text-align: left;
     color: #828689;
 }
 
 
 footer{
-    font: italic 20pt monospace;
-    margin-top: 30px;
+    font: italic 15pt monospace;
+    margin-top: 10px;
     text-align: center;
     color: #2a424d;
 }

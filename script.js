@@ -88,37 +88,33 @@ function rodarJogo(opcao) {
 
     // - - - - - - | Fim de jogo | - - - - - - //
     //pontosPc += 9;
-    if (pontosPc >= 10) {
+    if (pontosPc >= 10 || pontosJogador >= 10) {
         pLogResultado.innerHTML = `Aperte recomeçar para jogar novamente!`;
-        section3.innerHTML = `VOCÊ PERDEU! <br> 🤖 | Boa sorte na próxima vez!`;
-        section3.style.font = `bolder 33pt monospace`;
+        if (pontosPc >= 10) {
+            section3.innerHTML = `VOCÊ PERDEU! <br> 🤖 | Boa sorte na próxima vez!`;
+        } else if (pontosJogador >= 10){
+            section3.innerHTML = `VOCÊ GANHOU! <br> 🤖 | Que tal uma revanche?`;
+        }
+        section3.style.font = `bolder 24pt monospace`;
         section3.style.textAlign = `center`;
         section3.style.backgroundColor = `#181d20`;
-        section3.style.borderRadius = `10px`;
-        section3.style.padding = `10px`;
-        section3.style.border = `5px solid`;
-        section3.style.borderColor = `#ffff00`;
-    } else if (pontosJogador >= 10) {
-        pLogResultado.innerHTML = `Aperte recomeçar para jogar novamente!`;
-        section3.innerHTML = `VOCÊ GANHOU! <br> 🤖 | Que tal uma revanche?`;
-        section3.style.font = `bolder 33pt monospace`;
-        section3.style.textAlign = `center`;
-        section3.style.backgroundColor = `#181d20`;
-        section3.style.borderRadius = `10px`;
-        section3.style.padding = `10px`;
-        section3.style.border = `5px solid`;
+        section3.style.borderRadius = `5px`;
+        section3.style.padding = `5px`;
+        section3.style.border = `3px solid`;
         section3.style.borderColor = `#ffff00`;
     }
-
 }
 
 function recomecar() {
     // - - - - - - | Pedir confirmação | - - - - - - //
-    window.alert(`Deseja realmente recomeçar?`);
+    var confirmacao = window.prompt(`Deseja realmente recomeçar?`);
+    if (confirmacao.toLowerCase().startsWith(`s`) || confirmacao.toLowerCase().startsWith(`y`)) {
+        // - - - - - - | Recarregar pag  | - - - - - - //
+        return window.location.reload();
+    }
+    // - - - - - - | Continuar jogo | - - - - - - //
+    return window.alert(`O jogo não foi reiniciado!`);
 
-    // - - - - - - | Recarregar pag  | - - - - - - //
-    window.location.reload();
-   
 }
 
 function mouseOver(elementId) {
